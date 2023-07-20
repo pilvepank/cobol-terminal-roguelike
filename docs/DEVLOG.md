@@ -22,3 +22,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-07-10** `[019]`: chore: tag v0.1.0-alpha architecture milestone
 - **2023-07-13** `[020]`: Merge pull request #1 from pilvepank/init-architecture
 - **2023-07-17** `[021]`: feat(schema): scaffold ROGUE-CONFIG.cpy record layout and header fields
+- **2023-07-20** `[022]`: feat(schema): add secondary payload fields and attributes to ROGUE-CONFIG.cpy
