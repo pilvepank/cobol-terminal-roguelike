@@ -26,3 +26,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-07-23** `[023]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in ROGUE-CONFIG.cpy
 - **2023-07-26** `[024]`: feat(schema): declare 88-level condition names and validation states in ROGUE-CONFIG.cpy
 - **2023-07-30** `[025]`: docs(schema): document byte offsets and alignment boundaries for ROGUE-CONFIG.cpy
+- **2023-08-02** `[026]`: Merge pull request #6 from pilvepank/schema-rogue-config-cpy
