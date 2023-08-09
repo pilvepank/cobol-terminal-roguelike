@@ -28,3 +28,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-07-30** `[025]`: docs(schema): document byte offsets and alignment boundaries for ROGUE-CONFIG.cpy
 - **2023-08-02** `[026]`: Merge pull request #6 from pilvepank/schema-rogue-config-cpy
 - **2023-08-05** `[027]`: feat(schema): scaffold ROGUE-ENTITIES.cpy record layout and header fields
+- **2023-08-09** `[028]`: feat(schema): add secondary payload fields and attributes to ROGUE-ENTITIES.cpy
