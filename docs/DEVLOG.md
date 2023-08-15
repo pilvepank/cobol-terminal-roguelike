@@ -30,3 +30,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-08-05** `[027]`: feat(schema): scaffold ROGUE-ENTITIES.cpy record layout and header fields
 - **2023-08-09** `[028]`: feat(schema): add secondary payload fields and attributes to ROGUE-ENTITIES.cpy
 - **2023-08-12** `[029]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in ROGUE-ENTITIES.cpy
+- **2023-08-15** `[030]`: feat(schema): declare 88-level condition names and validation states in ROGUE-ENTITIES.cpy
