@@ -32,3 +32,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-08-12** `[029]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in ROGUE-ENTITIES.cpy
 - **2023-08-15** `[030]`: feat(schema): declare 88-level condition names and validation states in ROGUE-ENTITIES.cpy
 - **2023-08-19** `[031]`: docs(schema): document byte offsets and alignment boundaries for ROGUE-ENTITIES.cpy
+- **2023-08-22** `[032]`: Merge pull request #8 from pilvepank/schema-rogue-entities-cpy
