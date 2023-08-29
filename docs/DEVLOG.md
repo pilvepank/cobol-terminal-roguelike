@@ -34,3 +34,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-08-19** `[031]`: docs(schema): document byte offsets and alignment boundaries for ROGUE-ENTITIES.cpy
 - **2023-08-22** `[032]`: Merge pull request #8 from pilvepank/schema-rogue-entities-cpy
 - **2023-08-25** `[033]`: feat(schema): scaffold ROGUE-MAP.cpy record layout and header fields
+- **2023-08-29** `[034]`: feat(schema): add secondary payload fields and attributes to ROGUE-MAP.cpy
