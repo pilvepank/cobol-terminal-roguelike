@@ -36,3 +36,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-08-25** `[033]`: feat(schema): scaffold ROGUE-MAP.cpy record layout and header fields
 - **2023-08-29** `[034]`: feat(schema): add secondary payload fields and attributes to ROGUE-MAP.cpy
 - **2023-09-01** `[035]`: refactor(schema): optimize numeric types using COMP-5 / COMP-3 in ROGUE-MAP.cpy
+- **2023-09-04** `[036]`: feat(schema): declare 88-level condition names and validation states in ROGUE-MAP.cpy
