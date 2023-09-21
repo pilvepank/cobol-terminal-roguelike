@@ -41,3 +41,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-09-11** `[038]`: Merge pull request #10 from pilvepank/schema-rogue-map-cpy
 - **2023-09-14** `[039]`: feat(roguelike): scaffold roguelike_core.cbl identification and environment division
 - **2023-09-18** `[040]`: feat(roguelike): configure SPECIAL-NAMES DECIMAL-POINT IS COMMA
+- **2023-09-21** `[041]`: feat(roguelike): declare working-storage state buffers and accumulator registers
