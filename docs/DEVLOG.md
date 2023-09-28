@@ -43,3 +43,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-09-18** `[040]`: feat(roguelike): configure SPECIAL-NAMES DECIMAL-POINT IS COMMA
 - **2023-09-21** `[041]`: feat(roguelike): declare working-storage state buffers and accumulator registers
 - **2023-09-24** `[042]`: feat(roguelike): declare internal lookup tables and binary index pointers
+- **2023-09-28** `[043]`: feat(roguelike): implement 0000-MAIN entry point and dispatch control loop
