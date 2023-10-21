@@ -50,3 +50,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-10-11** `[047]`: feat(roguelike): implement primary operational execution paragraph
 - **2023-10-14** `[048]`: feat(roguelike): implement secondary state transition paragraph
 - **2023-10-17** `[049]`: feat(roguelike): implement queue eviction and index compaction logic
+- **2023-10-21** `[050]`: refactor(roguelike): replace sequential search with binary search
