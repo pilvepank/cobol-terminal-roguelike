@@ -53,3 +53,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-10-21** `[050]`: refactor(roguelike): replace sequential search with binary search
 - **2023-10-24** `[051]`: fix(roguelike): correct off-by-one boundary underflow in index calculation
 - **2023-10-27** `[052]`: Merge pull request #12 from pilvepank/fix-boundary-underflow
+- **2023-10-31** `[053]`: feat(roguelike): implement state serialization and snapshot persistence
