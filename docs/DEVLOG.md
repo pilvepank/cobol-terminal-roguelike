@@ -61,3 +61,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2023-11-16** `[058]`: fix(roguelike): handle zero-quantity edge case without state corruption
 - **2023-11-20** `[059]`: Merge pull request #12 from pilvepank/fix-zero-qty
 - **2023-11-23** `[060]`: feat(roguelike): add audit trail event logging and transaction counter
+- **2023-11-26** `[061]`: docs(roguelike): document engine execution lifecycle in docs/SPECIFICATION.md
