@@ -108,3 +108,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-04-20** `[105]`: test(game): add test scenario 3 - zero and negative input rejection
 - **2024-04-24** `[106]`: test(game): add test scenario 4 - state persistence roundtrip fidelity
 - **2024-04-27** `[107]`: test(game): add test scenario 5 - concurrent interleaved execution invariant
+- **2024-04-30** `[108]`: test(game): format summary table and pass/fail assertion reporter
