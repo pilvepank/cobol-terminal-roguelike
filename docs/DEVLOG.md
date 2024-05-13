@@ -112,3 +112,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-05-03** `[109]`: fix(test): correct expected test returncode assertion condition
 - **2024-05-07** `[110]`: Merge pull request #33 from pilvepank/test-suite
 - **2024-05-10** `[111]`: build: configure automated test target in Makefile
+- **2024-05-13** `[112]`: chore: tag v0.9.0 test-hardened milestone
