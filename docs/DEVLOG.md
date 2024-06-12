@@ -121,3 +121,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-06-02** `[118]`: test(coverage): expand assertion coverage for edge case condition #17
 - **2024-06-06** `[119]`: test(coverage): expand assertion coverage for edge case condition #18
 - **2024-06-09** `[120]`: test(coverage): expand assertion coverage for edge case condition #19
+- **2024-06-12** `[121]`: test(coverage): expand assertion coverage for edge case condition #20
