@@ -131,3 +131,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-07-06** `[128]`: test(coverage): expand assertion coverage for edge case condition #27
 - **2024-07-09** `[129]`: test(coverage): expand assertion coverage for edge case condition #28
 - **2024-07-12** `[130]`: test(coverage): expand assertion coverage for edge case condition #29
+- **2024-07-15** `[131]`: feat(roguelike_spells): declare copybook schema SPELL-DATA.cpy
