@@ -136,3 +136,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-07-22** `[133]`: feat(roguelike_spells): scaffold roguelike_spells.cbl subprogram interface
 - **2024-07-25** `[134]`: feat(roguelike_spells): implement calculation logic and state transitions in roguelike_spells.cbl
 - **2024-07-29** `[135]`: feat(roguelike_spells): add defensive parameter verification to roguelike_spells.cbl
+- **2024-08-01** `[136]`: test(roguelike_spells): establish automated unit test suite in roguelike_spell_test.cbl
