@@ -142,3 +142,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-08-11** `[139]`: docs(roguelike_spells): document submodule architecture and usage in docs/SUBMODULES.md
 - **2024-08-14** `[140]`: Merge pull request #43 from pilvepank/feat-roguelike_spells
 - **2024-08-18** `[141]`: feat(roguelike_save_engine): declare copybook schema SAVE-LAYOUT.cpy
+- **2024-08-21** `[142]`: feat(roguelike_save_engine): add validation bounds and status condition names to SAVE-LAYOUT.cpy
