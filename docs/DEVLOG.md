@@ -149,3 +149,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-09-03** `[146]`: test(roguelike_save_engine): establish automated unit test suite in roguelike_save_test.cbl
 - **2024-09-07** `[147]`: test(roguelike_save_engine): achieve 100% test assertion pass rate for roguelike_save_engine
 - **2024-09-10** `[148]`: refactor(roguelike_save_engine): optimize memory layout and eliminate redundant PERFORM calls
+- **2024-09-13** `[149]`: docs(roguelike_save_engine): document submodule architecture and usage in docs/SUBMODULES.md
