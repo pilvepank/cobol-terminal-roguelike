@@ -152,3 +152,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-09-13** `[149]`: docs(roguelike_save_engine): document submodule architecture and usage in docs/SUBMODULES.md
 - **2024-09-17** `[150]`: Merge pull request #46 from pilvepank/feat-roguelike_save_engine
 - **2024-09-20** `[151]`: refactor(subsystems): tighten linkage section parameter validations (step 20)
+- **2024-09-23** `[152]`: refactor(subsystems): tighten linkage section parameter validations (step 21)
