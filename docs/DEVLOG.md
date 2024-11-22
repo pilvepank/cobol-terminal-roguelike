@@ -170,3 +170,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-11-12** `[167]`: feat(roguelike_inventory): implement roguelike_inventory.cbl operational routines
 - **2024-11-15** `[168]`: test(roguelike_inventory): add automated unit tests in roguelike_inv_test.cbl
 - **2024-11-19** `[169]`: Merge pull request #55 from pilvepank/feat-roguelike_inventory
+- **2024-11-22** `[170]`: feat(roguelike_dijkstra): declare copybook schema SCENT-GRID.cpy
