@@ -174,3 +174,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-11-25** `[171]`: feat(roguelike_dijkstra): implement roguelike_dijkstra.cbl operational routines
 - **2024-11-29** `[172]`: test(roguelike_dijkstra): add automated unit tests in roguelike_ai_test.cbl
 - **2024-12-02** `[173]`: Merge pull request #56 from pilvepank/feat-roguelike_dijkstra
+- **2024-12-05** `[174]`: feat(roguelike_traps): declare copybook schema TRAP-TABLE.cpy
