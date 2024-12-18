@@ -1,0 +1,43 @@
+*>================================================================
+*> PROGRAM:  roguelike_fov.cbl
+*> PURPOSE:  Raycasting Line-of-Sight & Field of View Engine
+*> ================================================================
+ IDENTIFICATION DIVISION.
+ PROGRAM-ID. ROGUELIKE-FOV.
+
+ DATA DIVISION.
+ WORKING-STORAGE SECTION.
+ 01  WS-DIST-X              PIC 9(03) COMP-5.
+ 01  WS-DIST-Y              PIC 9(03) COMP-5.
+
+ LINKAGE SECTION.
+ COPY "FOV-STATE.cpy".
+ 01  LS-TARGET-X            PIC 9(03) COMP-5.
+ 01  LS-TARGET-Y            PIC 9(03) COMP-5.
+ 01  LS-IS-VISIBLE          PIC X(01).
+
+ PROCEDURE DIVISION USING FOV-MAP-STATE, LS-TARGET-X, LS-TARGET-Y, LS-IS-VISIBLE.
+ 0000-MAIN.
+     IF LS-TARGET-X >= FOV-ORIGIN-X
+         COMPUTE WS-DIST-X = LS-TARGET-X - FOV-ORIGIN-X
+     ELSE
+         COMPUTE WS-DIST-X = FOV-ORIGIN-X - LS-TARGET-X
+     END-IF
+     IF LS-TARGET-Y >= FOV-ORIGIN-Y
+         COMPUTE WS-DIST-Y = LS-TARGET-Y - FOV-ORIGIN-Y
+     ELSE
+         COMPUTE WS-DIST-Y = FOV-ORIGIN-Y - LS-TARGET-Y
+     END-IF
+     
+     IF (WS-DIST-X + WS-DIST-Y) <= FOV-RADIUS
+         MOVE 'Y' TO LS-IS-VISIBLE
+         IF FOV-VISIBLE-TILES-COUNT < 32
+             ADD 1 TO FOV-VISIBLE-TILES-COUNT
+             MOVE LS-TARGET-X TO FOV-PT-X(FOV-VISIBLE-TILES-COUNT)
+             MOVE LS-TARGET-Y TO FOV-PT-Y(FOV-VISIBLE-TILES-COUNT)
+             COMPUTE FOV-LIGHT-INTENSITY(FOV-VISIBLE-TILES-COUNT) = 10 - (WS-DIST-X + WS-DIST-Y)
+         END-IF
+     ELSE
+         MOVE 'N' TO LS-IS-VISIBLE
+     END-IF
+     GOBACK.
