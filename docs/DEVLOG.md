@@ -179,3 +179,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-12-12** `[176]`: test(roguelike_traps): add automated unit tests in roguelike_trap_test.cbl
 - **2024-12-15** `[177]`: Merge pull request #57 from pilvepank/feat-roguelike_traps
 - **2024-12-18** `[178]`: feat(roguelike_fov): declare copybook schema FOV-STATE.cpy
+- **2024-12-22** `[179]`: feat(roguelike_fov): implement roguelike_fov.cbl operational routines
