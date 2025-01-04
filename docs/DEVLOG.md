@@ -183,3 +183,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2024-12-25** `[180]`: test(roguelike_fov): add automated unit tests in roguelike_fov_test.cbl
 - **2024-12-28** `[181]`: Merge pull request #59 from pilvepank/feat-roguelike_fov
 - **2025-01-01** `[182]`: feat(roguelike_procgen): declare copybook schema DUNGEON-GEN.cpy
+- **2025-01-04** `[183]`: feat(roguelike_procgen): implement roguelike_procgen.cbl operational routines
