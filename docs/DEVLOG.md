@@ -188,3 +188,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-01-11** `[185]`: Merge pull request #60 from pilvepank/feat-roguelike_procgen
 - **2025-01-14** `[186]`: perf(bench): add high-throughput synthetic stress benchmark suite
 - **2025-01-17** `[187]`: build: update Windows build automation script to compile all submodules
+- **2025-01-21** `[188]`: build: update Windows execution batch to run all test harnesses

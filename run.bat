@@ -1,2 +1,13 @@
 @echo off
-echo Ready.
+call build.bat
+roguelike_core.exe
+roguelike_test.exe
+roguelike_spell_test.exe
+roguelike_save_test.exe
+roguelike_inv_test.exe
+roguelike_ai_test.exe
+roguelike_trap_test.exe
+roguelike_fov_test.exe
+roguelike_procgen_test.exe
+roguelike_status_test.exe
+roguelike_combat_test.exe
