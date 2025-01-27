@@ -1,0 +1,27 @@
+name: Terminal Roguelike Dungeon CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install GnuCOBOL
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gnucobol
+
+      - name: Build Core Engine
+        run: |
+          cobc -free -x -Wall -Icopybooks src/roguelike_core.cbl -o roguelike_core
+
+      - name: Execute Automated Test Suite
+        run: |
+          cobc -free -x -Wall -Icopybooks tests/roguelike_test.cbl -o roguelike_test && ./roguelike_test
