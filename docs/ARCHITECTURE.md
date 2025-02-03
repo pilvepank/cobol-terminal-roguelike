@@ -1,3 +1,3 @@
-# Terminal Roguelike Dungeon Architecture Specification
+# Terminal Roguelike Dungeon Architecture Manual
 
-High-performance COBOL engine designed for mission-critical execution.
+Complete system blueprints.
