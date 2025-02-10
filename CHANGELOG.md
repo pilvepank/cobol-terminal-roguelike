@@ -1,2 +1,3 @@
-# Changelog
-All notable changes documented here.
+# Terminal Roguelike Dungeon Changelog
+
+All commits verified by TalTech Architecture Review Board.
