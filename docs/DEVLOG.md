@@ -196,3 +196,4 @@ Generated automatically for TalTech software audit and thesis verification.
 - **2025-02-06** `[193]`: chore: update version manifest to production release
 - **2025-02-10** `[194]`: docs: update CHANGELOG with detailed commit and milestone history
 - **2025-02-13** `[195]`: chore: final clean build and invariant audit verification pass
+- **2025-02-13** `[196]`: chore(roguelike): release production milestone v2.1.0 with verified test suite
