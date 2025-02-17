@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "ITEM-TABLE.cpy".
+ COPY "copybooks/ITEM-TABLE.cpy".
  01  WS-OP                  PIC X(01) VALUE 'A'.
  01  WS-NAME                PIC X(16) VALUE "HEALTH POTION   ".
  01  WS-POWER               PIC 9(04) COMP-5 VALUE 50.

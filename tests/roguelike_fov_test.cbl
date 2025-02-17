@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "FOV-STATE.cpy".
+ COPY "copybooks/FOV-STATE.cpy".
  01  WS-TX                  PIC 9(03) COMP-5 VALUE 12.
  01  WS-TY                  PIC 9(03) COMP-5 VALUE 11.
  01  WS-VIS                 PIC X(01) VALUE 'N'.

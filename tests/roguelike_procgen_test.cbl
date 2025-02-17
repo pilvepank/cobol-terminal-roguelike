@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "DUNGEON-GEN.cpy".
+ COPY "copybooks/DUNGEON-GEN.cpy".
  01  WS-RX                  PIC 9(03) COMP-5 VALUE 5.
  01  WS-RY                  PIC 9(03) COMP-5 VALUE 5.
  01  WS-RW                  PIC 9(03) COMP-5 VALUE 10.

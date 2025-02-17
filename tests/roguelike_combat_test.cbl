@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "EXPERIENCE-TABLE.cpy".
+ COPY "copybooks/EXPERIENCE-TABLE.cpy".
  01  WS-XP                  PIC 9(08) COMP-5 VALUE 50.
  01  WS-LVLUP               PIC X(01) VALUE 'N'.
  01  WS-TESTS-RUN           PIC 9(04) VALUE 0.

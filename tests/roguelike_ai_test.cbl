@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "SCENT-GRID.cpy".
+ COPY "copybooks/SCENT-GRID.cpy".
  01  WS-MX                  PIC 9(03) COMP-5 VALUE 13.
  01  WS-MY                  PIC 9(03) COMP-5 VALUE 14.
  01  WS-DIST                PIC 9(04) COMP-5 VALUE 0.

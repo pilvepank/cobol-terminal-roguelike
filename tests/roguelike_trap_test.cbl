@@ -7,7 +7,7 @@
 
  DATA DIVISION.
  WORKING-STORAGE SECTION.
- COPY "TRAP-TABLE.cpy".
+ COPY "copybooks/TRAP-TABLE.cpy".
  01  WS-X                   PIC 9(03) COMP-5 VALUE 12.
  01  WS-Y                   PIC 9(03) COMP-5 VALUE 8.
  01  WS-DMG                 PIC 9(04) COMP-5 VALUE 0.
